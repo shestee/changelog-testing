@@ -1,7 +1,8 @@
 [![CI](https://github.com/shipkit/shipkit-changelog/workflows/CI/badge.svg)](https://github.com/shipkit/shipkit-changelog/actions)
 [![Gradle Plugin Portal](https://img.shields.io/maven-metadata/v/https/plugins.gradle.org/m2/org/shipkit/shipkit-changelog/maven-metadata.xml.svg?label=Version)](https://plugins.gradle.org/plugin/org.shipkit.shipkit-changelog)
 
-# Shipkit
+<br/>
+<img src="https://user-images.githubusercontent.com/53140474/115014047-2231fa00-9eb2-11eb-946f-1a6d3b0832f0.png" width="40%">
 
 ## Vision
 
