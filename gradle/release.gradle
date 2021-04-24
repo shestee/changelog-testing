@@ -40,12 +40,12 @@ if (ext.'gradle.publish.key' && ext.'gradle.publish.secret') {
 tasks.named("generateChangelog") {
     previousRevision = project.ext.'shipkit-auto-version.previous-tag'
     githubToken = System.getenv("GITHUB_TOKEN")
-    repository = "shipkit/shipkit-changelog"
+    repository = "shestee/changelog-testing"
 }
 
 tasks.named("githubRelease") {
     dependsOn tasks.named("generateChangelog")
-    repository = "shipkit/shipkit-changelog"
+    repository = "shestee/changelog-testing"
     changelog = tasks.named("generateChangelog").get().outputFile
     newTagRevision = System.getenv("GITHUB_SHA")
     githubToken = System.getenv("GITHUB_TOKEN")
